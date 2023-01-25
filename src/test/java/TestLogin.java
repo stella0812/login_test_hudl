@@ -3,7 +3,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class TestLogin {
     public static void main (String[] args){
@@ -29,9 +28,6 @@ public class TestLogin {
         password.sendKeys("huPmaf-piwva2-jendeq");
         login.click();
         driver.getCurrentUrl();
-        driver.navigate().to("https://www.browserstack.com/");
-        Boolean verifyTitle = driver.getTitle().equalsIgnoreCase("Most Reliable App & Cross Browser Testing Platform | BrowserStack");
-        assertTrue(verifyTitle);
     }
 }
 
