@@ -27,7 +27,6 @@ public class TestLogin {
         username.sendKeys("s_egeolu@yahoo.co.uk");
         password.sendKeys("huPmaf-piwva2-jendeq");
         login.click();
-        driver.getCurrentUrl();
     }
 }
 
